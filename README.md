@@ -1,10 +1,10 @@
-# Named Entity Recognition for German Commdity Titles
+# Named Entity Recognition for German Commodity Titles
 This is my implement for [eBay 2023 University Machine Learning Competition](https://eval.ai/web/challenges/challenge-page/2014/overview). I got an F1 Score of 0.930349 in quiz dataset, ranking 15 among all 65 submissions. 
-This is a Named Entity Recognition (NER) task on Commdity Titles written in German, where we need to extract key information like Marke (Brand), Farbe (Color), Gewebeart (Fabric Type), etc. 
+This is a Named Entity Recognition (NER) task on Commodity Titles written in German, where we need to extract key information like Marke (Brand), Farbe (Color), Gewebeart (Fabric Type), etc. 
 ## Generate Entities
 We will not share the dataset because of the Data Use Agreement. However, you can also try our model on your own data.  
 ### Data Format
-Your data should be a csv or tsv file with a header of two columns: "Record Number" and "Title", where "Record Number" is an integer to identify the commdity, and "Title" is the commdity title from online shopping sites (should be in German, no further process needed).  
+Your data should be a csv or tsv file with a header of two columns: "Record Number" and "Title", where "Record Number" is an integer to identify the commodity, and "Title" is the commdity title from online shopping sites (should be in German, no further process needed).  
 ### Pretrained Models
 You can download our pretrained model from [here](https://drive.google.com/file/d/1sd1wXN8nV1ScDpIXabthmuntvsbIv_PE/view?usp=sharing), unziping the archive file and move to the project folder.
 ### Generate
